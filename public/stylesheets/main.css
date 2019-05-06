@@ -1,0 +1,185 @@
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.player {
+  width: 150px;
+}
+
+.flexcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-content: flex-end;
+}
+.flexcontainer > div {
+  height: 70px;
+  width: 70px;
+  border: 1px solid #5a5a5a;
+  background: #f1f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty {
+  background: #f1f0f0;
+}
+
+.weapon {
+  color: crimson;
+}
+
+.obstacle {
+  background: #585858 !important;
+}
+
+.possible {
+  background: #92b8ff !important;
+}
+
+.player-background {
+  background: #f1f0f0;
+}
+
+.player_1 {
+  color: #645501;
+}
+
+.player_2 {
+  color: #4f01b4;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left,
+.right {
+  width: 15%;
+  background: #f1f0f0;
+}
+
+.right {
+  text-align: right;
+}
+
+.middle {
+  width: 66%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.player-names {
+  width: 15%;
+  margin: 0 auto;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+input[type=text] {
+  padding: 10px 20px;
+  border-color: transparent;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+input[type=text]::-webkit-input-placeholder {
+  padding-left: 5px;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+
+input[type=text]:-moz-placeholder {
+  /* Firefox 18- */
+  padding-left: 5px;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+
+input[type=text]::-moz-placeholder {
+  /* Firefox 19+ */
+  padding-left: 5px;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+
+input[type=text]:-ms-input-placeholder {
+  padding-left: 5px;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+
+.btn {
+  margin-top: 10px;
+  position: relative;
+  vertical-align: top;
+  padding: 5px 20px;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #c0622b;
+  border: 0;
+  border-bottom: 2px solid #743918;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #743918;
+  box-shadow: inset 0 -2px #743918;
+}
+
+.shoot-btn {
+  background: #c0392b;
+  border-bottom: 2px solid #86261c;
+  -webkit-box-shadow: inset 0 -2px #86261c;
+  box-shadow: inset 0 -2px #86261c;
+  margin-right: 10px;
+}
+
+.defend-btn {
+  background: #4e4e4e;
+  border-bottom: 2px solid #1b1b1b;
+  -webkit-box-shadow: inset 0 -2px #1b1b1b;
+  box-shadow: inset 0 -2px #1b1b1b;
+}
+
+.btn:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.fa-heart {
+  color: crimson;
+}
+
+/*# sourceMappingURL=main.css.map */

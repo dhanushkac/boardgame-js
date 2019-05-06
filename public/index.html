@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+
+<body>
+    <div class="player-names show">
+        <h2>Enter player names</h2>
+        <div>
+            <input type="text" id="player-one-name" placeholder="Player one name">
+        </div>
+        <div>
+            <input type="text" id="player-two-name" placeholder="Player two name">
+        </div>
+        <input id="go-to-game" type="button" class="btn" value="Go to game">
+    </div>
+    <div class="row game hide">
+        <div class="column left">
+            <h2 class="player_1">Player</h2>
+            <p><i class="fas fa-heart"></i> <span class="player-1-health"></span></p>
+
+            <div class="player-one-weapon">
+            </div>
+
+            <div class="player-one-turn">
+
+            </div>
+        </div>
+        <div class="column middle">
+            <div class="container">
+                <div class="flexcontainer"></div>
+            </div>
+        </div>
+        <div class="column right">
+            <h2 class="player_2">Player</h2>
+            <p><i class="fas fa-heart"></i> <span class="player-2-health"></span></p>
+            <div class="player-two-weapon">
+            </div>
+            <div class="player-two-turn">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./js/Block.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./js/Weapon.js"></script>
+    <script src="./js/Coordinate.js"></script>
+    <script src="./js/GameBoard.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
